@@ -115,20 +115,4 @@ fi
 #some my code
 neofetch | lolcat
 echo Hello user | lolcat
-
-#powerline
-#function _update_ps1() {
-#	PS1=$(powerline-shell $?)'\n '
-#}
-
-# if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-# 	PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-# fi
-
-# Powerline configuration
-if [ -f $HOME/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh ]; then
-	powerline-daemon -q
-	POWERLINE_BASH_CONTINUATION=1
-	POWERLINE_BASH_SELECT=1
-	source home/arnav/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
-fi
+source .bash-powerline.sh
