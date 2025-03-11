@@ -3,8 +3,8 @@
   <source src="01.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-![Video](https://raw.githubusercontent.com/arnavam/.config_Linux/main/01.mp4)
-
+https://raw.githubusercontent.com/arnavam/.config_Linux/main/02.mp4
+https://raw.githubusercontent.com/arnavam/.config_Linux/main/01.mp4
 
 https://github.com/user-attachments/assets/cd5fecc1-9713-4640-a10e-3a1386420cb8
 
